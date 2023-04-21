@@ -1,8 +1,9 @@
 const inquirer = require("inquirer");
 const jest = require("jest");
 const fs = require('fs');
+const path = require('path');
 
-const generateShape = require("./lib/shapes");
+const generateShape = require("./utils/generate-shape");
 
 const shapeOptions = ["circle", "triangle", "square"];
 
@@ -15,8 +16,7 @@ const questions = [
   {
     type: "input",
     name: "textColor",
-    message:
-      "Enter a color you'd like your text to be e.g. White, Black, or Blue",
+    message: "Enter a color you'd like your text to be e.g. White, Black, or Blue",
   },
   {
     type: "list",
