@@ -1,5 +1,4 @@
 const inquirer = require("inquirer");
-const jest = require("jest");
 const fs = require('fs');
 const path = require('path');
 
@@ -12,6 +11,12 @@ const questions = [
     type: "input",
     name: "text",
     message: "Enter up to 3 characters for your logo e.g. RWG",
+    validate: function(text) {
+      if (text.length <= 3) {
+        return true;
+      }
+      return "Please enter up to 3 characters only.";
+    }
   },
   {
     type: "input",
@@ -42,8 +47,11 @@ function init() {
     .then((answers) => {
         const svgLogoContent = generateShape(answers);
         writeToFile("logo.svg", svgLogoContent)
+        console.log("Generated logo.svg!");
     })
 }
 
 // Function call to initialize app
 init();
+
+module.exports = init;
