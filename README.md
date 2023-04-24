@@ -18,7 +18,7 @@ This app requires an installation of jest and inquirer. All you need to do when 
 ## Usage
 To use this application, refer to the installation instructions beforehand. Once you have installed what you require, in your integrated termainal, type 'node index.js' and hit enter. Follow the prompts and questions and hit enter at the end of each of them. Once you've finished all the prompts your logo.svg file will be available from where you opened your integrated terminal. Below is a video link to assist:
 
-https://watch.screencastify.com/v/cbEKj5Q812WIEbjHZvrz
+[Link text](https://watch.screencastify.com/v/cbEKj5Q812WIEbjHZvrz){:target="_blank"} 
 
 ## Contributing
 If you wish to contribute to this SVG logo generator, please refer to the following: 
