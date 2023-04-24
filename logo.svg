@@ -1,7 +1,6 @@
-
-      <?xml version="1.0" standalone="no"?>
+<?xml version="1.0" standalone="no"?>
       <svg width="300" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <polygon points="50,200 150,200 100,100" fill="#F5F5DC"/>
-      <text x="100" y="180" font-size="30" text-anchor="middle"fill="navy">RWG</text>
+      <circle cx="100" cy="125" r="60" fill="beige" />
+      <text x="100" y="135" font-size="30" text-anchor="middle" fill="black">RWG</text>
       </svg>
       
