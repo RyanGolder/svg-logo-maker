@@ -32,3 +32,7 @@ function generateShape(data) {
 }
 
 module.exports = generateShape;
+
+module.exports.Circle = Circle;
+module.exports = Square;
+module.exports = Triangle;
